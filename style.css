@@ -12,3 +12,63 @@
   display:flex;
   justify-content: space-between;
 }
+
+body {
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Architects Daughter', cursive;
+    color: darkolivegreen; 
+}
+
+.intro {
+    border: none;
+    padding: 10px 50px 50px 30px;
+    /*max-width: 300px;
+    display: inline-block; 
+    This moved the intro to the left!*/ 
+}
+
+.menus {
+    display: inline-block;    
+}
+
+.menu {
+    border: 5px solid darkolivegreen; 
+    padding: 8px;
+    max-width: 900vw;
+    transition: all 0.5s ease-in-out;
+}
+
+.menu:hover {
+    transform: scale(1.15);
+}
+
+.recipes {
+    /*Container of flexbox*/
+    display: flex;
+    flex-flow: row wrap; 
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: space-around;
+}
+
+.recipe {
+   width: 320px;
+    /*Children in flexbox*/
+}
+
+.recipeimage {
+    max-width: 300px;
+    height: 200px;
+}
+
+a {
+    color: black;
+}
+
+a:visited {
+    color: darkolivegreen;
+}
