@@ -105,11 +105,9 @@ a:visited {
         line-height: 1.5rem
     }
 
-@media(max-width:767px) {
-    .carousel-caption img {
+.carousel-caption img {
         width: 5.5rem;
     }
-}
 
 @media(max-width:767px) {
     #image-caption {
