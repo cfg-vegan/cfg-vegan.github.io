@@ -175,3 +175,7 @@ label:hover {
     background-color: darkolivegreen;
     color: white;
 }
+
+.container-2 {
+   display: center;
+}
