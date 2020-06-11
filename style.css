@@ -55,6 +55,7 @@
 body {
     font-family: 'Dosis', sans-serif;
     text-align: center;
+   display:flex;
 }
 
 h1 {
