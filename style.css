@@ -136,13 +136,13 @@ a:visited {
 
 /* Quiz */
 
-#main {
+#quiz {
 width: 60%;
 margin: auto;
 padding: 10px;
 }
 
-#header {
+#quiztitle {
 margin-top: 0;
 padding: 5px;
 }
@@ -155,5 +155,6 @@ display: inline-block;
 button {
 display: center;
 margin-top: 20px;
+
 }
 
