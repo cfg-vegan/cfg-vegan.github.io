@@ -91,7 +91,7 @@ a:visited {
     color: darkolivegreen;
 }
 
-#container-2{
+.container-2{
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.58);
 
 }
