@@ -135,30 +135,43 @@ a:visited {
     margin: 50px auto;
 }
 
+.glyphicon.glyphicon-user{
+color:black;
+}
+
 
 /* Quiz */
 
 #quiz {
-width: 60%;
-margin: auto;
-padding: 10px;
+    width: 60%;
+    margin: auto;
+    padding: 10px;
 }
 
 #quiztitle {
-margin-top: 0;
-padding: 5px;
+    margin-top: 0;
+    padding: 5px;
 }
 
 label {
-width: 150px;
-display: inline-block;
+    width: 150px;
+    display: inline-block;
 }
 
-button {
-display: center;
-margin-top: 20px;
-
+label:hover {
+    color: darkolivegreen;
 }
-.glyphicon.glyphicon-user{
-color:black;
+
+#quizbutton {
+    display: inline-block;
+    margin-top: 20px;
+    border-color: darkolivegreen;
+    border-radius: 12px;
+    padding: 14px;
+    transition-duration: 0.4s;
+}
+
+#quizbutton:hover {
+    background-color: darkolivegreen;
+    color: white;
 }
