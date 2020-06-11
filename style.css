@@ -13,6 +13,7 @@
   justify-content: space-between;
 }
 
+
 body {
     font-family: 'Dosis', sans-serif;
     text-align: center;
@@ -20,53 +21,70 @@ body {
 
 h1 {
     font-family: 'Architects Daughter', cursive;
-    color: darkolivegreen; 
+    color: darkolivegreen;
+    font-size: 60px;
+}
+
+h2 {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 30px;
+    padding: 22px;
 }
 
 .intro {
     border: none;
     padding: 10px 50px 50px 30px;
-    /*max-width: 300px;
-    display: inline-block; 
-    This moved the intro to the left!*/ 
+    font-size: 20px;
 }
 
 .menus {
-    display: inline-block;    
+    display: flex;   
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
 .menu {
+    display: inline-block;
     border: 5px solid darkolivegreen; 
     padding: 8px;
-    max-width: 900vw;
+    margin: 10px;
+    max-width: 90vw;
     transition: all 0.5s ease-in-out;
+    background-color: white; 
 }
 
 .menu:hover {
-    transform: scale(1.15);
+    padding: 22px;
+    font-size: 1.13em
 }
 
 .recipes {
     /*Container of flexbox*/
     display: flex;
-    flex-flow: row wrap; 
+    flex-flow: column wrap; 
     justify-content: space-evenly;
     align-items: flex-start;
     align-content: space-around;
+    padding: 20px;
 }
 
 .recipe {
-   width: 320px;
+   width: 300px;
     /*Children in flexbox*/
 }
 
 .recipeimage {
-    max-width: 300px;
-    height: 200px;
+    max-width: 280px;
+    max-height: 200px
 }
 
 a {
     color: black;
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: none; 
 }
 
 a:visited {
