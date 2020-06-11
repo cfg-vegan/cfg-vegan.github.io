@@ -176,6 +176,6 @@ label:hover {
     color: white;
 }
 
-.container-2 {
-   display: inline-block;
+#testimonials {
+   display: center;
 }
