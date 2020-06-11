@@ -90,3 +90,46 @@ a:hover {
 a:visited {
     color: darkolivegreen;
 }
+
+#container-2{
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.58);
+
+}
+
+    .carousel-caption {
+        position: initial;
+        z-index: 10;
+        color: rgba(78, 77, 77, 0.856);
+        text-align: center;
+        font-size: 1rem;
+        line-height: 1.5rem
+    }
+
+@media(max-width:767px) {
+    .carousel-caption img {
+        width: 5.5rem;
+    }
+}
+
+@media(max-width:767px) {
+    #image-caption {
+        font-style: normal;
+        font-size: 0.6rem;
+        margin-top: 0.5rem
+    }
+}
+
+
+.carousel-control-prev {
+    justify-content: flex-start
+}
+
+.carousel-control-next {
+    justify-content: flex-end
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    transition: none;
+    opacity: unset
+}
