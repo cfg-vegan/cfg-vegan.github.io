@@ -7,18 +7,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
         <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Dosis&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./style.css">
         <title>Vegan Cookbook</title>
     </head>
 
     <body>
-        <div>
-            <header>
-                <!-- Same as front page?  -->
-            </header>
-        </div>
-
         <div>
             <nav class="navbar navbar-expand-lg navbar-light  fixed">
                 <a class="nav-link" href="index.html"> <img src="https://t3.ftcdn.net/jpg/02/54/91/18/240_F_254911888_K6JWoUSXDgzzIGA3iuk1948rlPC4PHGZ.jpg" width="75px" height="50px" alt="logo"> Vegan Now  </a>
@@ -38,10 +33,7 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="map.html">Map</a>
-                    </li> 
-                     <li class="nav-item">
-                        <a class="nav-link" href="index.html#testimonials">Testimonials</a>
-                     </li>
+                    </li>
                     <li class="nav-item">
                       <a class="nav-link" href="index.html#">Contact</a>
                     </li>
@@ -54,8 +46,7 @@
             <h1>Cookbook</h1>
                 <p>Looking for inspiration? Try out one of our favourite menus below, compiled with recipes from around the internet.
                     <br>Find the recipe by clicking on any of the appetisers, meals or desserts.
-                    <br>...Or take our quick test if you wish to find out which menu suits your tastes best! 
-                    <!-- This is where I'd put the JavaScript 'game', if I actually figure out how to code that-->
+                    <br>...Or scroll down to take our quick test if you wish to find out which menu suits your tastes best!
                 </p>
         </div>
 
@@ -146,4 +137,49 @@
                 </div>
             </div>
         </div>
+        <br><br>
+        <div class="quiz">
+            <div id="main">
+                <div id="header"><h1>Menu Quiz</h1></div>
+                
+                <form  id="form1">
+                <p>How good are your cooking skills?</p>
+                <label><input type="radio" name="skill" id="young" value="1" />I'm a beginner</label>
+                <label><input type="radio" name="skill" id="mid" value="2" />I'm pretty good</label>
+                <label><input type="radio" name="skill" id="old" value="3" />I'm a chef</label>
+                
+                <p>How much time do you have to cook today?</p>
+                <label><input type="radio" name="time" id="party" value="1" />About half an hour</label>
+                <label><input type="radio" name="time" id="rock" value="2" />About an hour</label>
+                <label><input type="radio"  name="time" id="beer" value="3" />Lots of time!</label>
+                
+                <p>Who are you sharing your dinner with?</p>
+                <label><input type="radio" name="guests" id="rock2" value="1" />Just me!</label>
+                <label><input type="radio" name="guests" id="indie" value="2" />A friend</label>
+                <label><input type="radio" name="guests" id="country" value="3" />Important guests</label>  
+                
+                <p>Are tomatoes vegetables or a fruits?</p>
+                <label><input type="radio" name="fruits" id="rock2" value="1" />I don't care</label>
+                <label><input type="radio" name="fruits" id="indie" value="2" />A vegetable!</label>
+                <label><input type="radio" name="fruits" id="country" value="3" />My favourite fruit!</label>  
+                <br>
+                <button type="submit" value="Submit">Submit</button>
+                
+                </form>
+                
+                <p id="answer"></p>
+                <p id="answer2"></p>
+                </div>
+            <!-- Javascript -->
+                <script src="quiz.js"></script>
+        </div>
+
+        <footer>
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">© 2020 Copyright:
+                <a href="https://cfg-vegan.github.io/"> Marieke and Simisola</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
     </body>
+
