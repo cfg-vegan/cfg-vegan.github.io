@@ -130,7 +130,9 @@ a:visited {
 }
 
 .map {
-    margin: 50px;
+    max-width: 96vw;
+    max-height: 72vw;
+    margin: 50px auto;
 }
 
 
