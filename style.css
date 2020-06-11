@@ -109,13 +109,11 @@ a:visited {
         width: 5.5rem;
     }
 
-@media(max-width:767px) {
     #image-caption {
         font-style: normal;
         font-size: 0.6rem;
         margin-top: 0.5rem
     }
-}
 
 
 .carousel-control-prev {
